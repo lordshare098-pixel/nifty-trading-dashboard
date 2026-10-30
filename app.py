@@ -12,9 +12,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 try:
-from streamlit_autorefresh import st_autorefresh
+    from streamlit_autorefresh import st_autorefresh
 except Exception:
-st_autorefresh = None
+    st_autorefresh = None
 
 st.set_page_config(page_title="Nifty Dashboard", layout="wide")
 
